@@ -1,0 +1,47 @@
+.about-us{
+    margin: 0 auto;
+   .container{
+    width: 1200px;
+    height: 537px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+    background-color:#EFF5FF;
+    .about-us__img{
+        display: flex;
+        justify-content: end;
+        width: 50%;
+        height: 80%;
+    }
+    .about-us__text{
+        width: 50%;
+        height: 80%;
+        .h1-1{
+            color:#2F5DC7;
+        }
+        .__text-p{width: 65.8%;
+        margin-top: 10px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #373633;
+        opacity: 0.7;}
+    }
+    .try-button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+        position: relative;
+        bottom:-40%;
+        button{
+            width: 246px;
+            height: 56px;
+            background: #FFCD2D;
+            border-radius: 4px;
+        }
+    }
+}

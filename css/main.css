@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 56px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+header {
+  margin: 0 auto;
+}
+header .header--hero {
+  height: 48px;
+  background-color: #EFF5FF;
+}
+header .header--hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header--hero .container div {
+  display: flex;
+  align-items: center;
+}
+header .header--hero .container div img {
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 5px;
+  height: 8px;
+}
+header .header--hero .container p {
+  margin-top: 8px;
+  margin-left: 10px;
+  font-size: 13px;
+  line-height: 24px;
+  color: #747C8B;
+}
+header .header--hero button {
+  background-color: #3F6DD6;
+  color: aliceblue;
+  width: 60px;
+  height: 30px;
+  margin-top: 9px;
+  border-radius: 25px;
+  border: none;
+}
+
+.header--nav {
+  height: 72px;
+  background-color: white;
+}
+.header--nav .container {
+  width: 1200px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header--nav .container .header--nav__logo {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header--nav .container .header--nav__logo span {
+  font-family: "open sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #373633;
+}
+.header--nav .container .header--nav__address {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header--nav .container .header--nav__address p {
+  font-family: "open sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #373633;
+}
+.header--nav .container .header--nav__address button {
+  border-radius: 4px;
+  width: 80px;
+  height: 40px;
+  background: white;
+  color: #747C8B;
+  width: 112px;
+  height: 40px;
+  border: 1px solid #D7DDEA;
+}
+
+.about-us {
+  margin: 0 auto;
+  background-color: #EFF5FF;
+}
+.about-us .container {
+  width: 1200px;
+  height: 537px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-us .about-us__img {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  height: 80%;
+}
+.about-us .about-us__text {
+  width: 50%;
+  height: 80%;
+}
+.about-us .about-us__text .h1-1 {
+  color: #2F5DC7;
+}
+.about-us .about-us__text .__text-p {
+  width: 65.8%;
+  margin-top: 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #373633;
+  opacity: 0.7;
+}
+.about-us .try-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  position: relative;
+  bottom: -40%;
+}
+.about-us .try-button button {
+  width: 246px;
+  height: 56px;
+  background: #FFCD2D;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=main.css.map */
